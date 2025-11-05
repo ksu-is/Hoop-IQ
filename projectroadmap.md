@@ -6,6 +6,9 @@ Answer sheet with all correct answers to each NBA decade selected on one sheet
 List of questions for each decade decided
 Answer choices including only related choices for each decade
 Answer sheet including all correct answers for each decade on 1 sheet
+Evaluate the cloned repository to understand how to make the quiz properly 
+finalize the answer choices needed for questions from all decades
+decide how the answer sheet will be included
 # Goals for the end of November 30
 Have the code finished for the questions for the project 
 Have the code finished for the answers and answer sheet for the project
