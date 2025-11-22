@@ -1,15 +1,18 @@
 # Will delete or use as my scratch sheet / testing page for my code
 
-# Hoop IQ - Base Version (Before Improvements)
+# Hoop IQ - Base Version 
+
+#adjusted menu
 
 def get_decade_choice():
     print("Welcome to Hoop IQ!")
     print("Select an NBA decade:")
-    print("1. 2000s")
-    print("2. 2010s")
-    print("3. 2020s")
+    print("1. 2000s Quiz")
+    print("2. 2010s Quiz")
+    print("3. 2020s Quiz")
+    print("4. View Answer Sheet")
 
-    choice = input("Enter your choice (1-3): ")
+    choice = input("Enter your choice (1-4): ")
 
     if choice == "1":
         return "2000s"
@@ -17,6 +20,10 @@ def get_decade_choice():
         return "2010s"
     elif choice == "3":
         return "2020s"
+    elif choice == "4":
+        
+        show_answer_sheet()
+        exit()
     else:
         print("Invalid selection. Please restart the program.")
         exit()
@@ -93,6 +100,31 @@ def get_valid_answer():
             return answer
         else:
             print("Invalid input. Please enter A, B, C, or D.")
+
+# This prints the correct answers for each decade. 
+# will think about adjusting how i want this answer sheet 
+
+def show_answer_sheet():
+    print("\n========== ANSWER SHEET ==========\n")
+
+    # 2000s Answers
+    print("2000s Answers:")
+    for q, a, b, c, d, correct in questions_2000s:
+        print(f"- {q} (Correct answer: {correct})")
+    print()
+
+    # 2010s Answers
+    print("2010s Answers:")
+    for q, a, b, c, d, correct in questions_2010s:
+        print(f"- {q} (Correct answer: {correct})")
+    print()
+
+    # 2020s Answers
+    print("2020s Answers:")
+    for q, a, b, c, d, correct in questions_2020s:
+        print(f"- {q} (Correct answer: {correct})")
+
+    print("\n==================================\n")
 
 def run_quiz(questions):
     score = 0
