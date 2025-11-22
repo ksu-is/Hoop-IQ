@@ -80,6 +80,20 @@ questions_2020s = [
 
 # ----- MAIN QUIZ LOGIC ----- #
 
+# Input Validation
+# Ensures only valid choices (A,B,C,D)
+# I want to have the code be more stable and not allow incorrect inputs 
+
+def get_valid_answer():
+    valid_options = ["A", "B", "C", "D"]
+
+    while True:
+        answer = input("Your answer (A-D): ").upper()
+        if answer in valid_options:
+            return answer
+        else:
+            print("Invalid input. Please enter A, B, C, or D.")
+
 def run_quiz(questions):
     score = 0
 
@@ -91,7 +105,7 @@ def run_quiz(questions):
         print(b)
         print(c)
         print(d)
-        answer = input("Your answer (A-D): ").upper()
+        answer = get_valid_answer()
 
         if answer == correct:
             score += 1
