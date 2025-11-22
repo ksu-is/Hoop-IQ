@@ -107,25 +107,73 @@ def get_valid_answer():
 def show_answer_sheet():
     print("\n========== ANSWER SHEET ==========\n")
 
-    # 2000s Answers
-    print("2000s Answers:")
-    for q, a, b, c, d, correct in questions_2000s:
-        print(f"- {q} (Correct answer: {correct})")
-    print()
+    # -------------------------
+    #          2000s
+    # -------------------------
+    print("2000s NBA Quiz Answers\n")
 
-    # 2010s Answers
-    print("2010s Answers:")
-    for q, a, b, c, d, correct in questions_2010s:
-        print(f"- {q} (Correct answer: {correct})")
-    print()
+    print("1. Who won the 2004 NBA Championship?")
+    print("   Correct Answer: B — Detroit Pistons\n")
 
-    # 2020s Answers
-    print("2020s Answers:")
-    for q, a, b, c, d, correct in questions_2020s:
-        print(f"- {q} (Correct answer: {correct})")
+    print("2. Who was the 2008 MVP?")
+    print("   Correct Answer: A — Kobe Bryant\n")
 
-    print("\n==================================\n")
+    print("3. Which team drafted LeBron James?")
+    print("   Correct Answer: C — Cleveland Cavaliers\n")
 
+    print("4. Fill in the blank: The Spurs big 3 were Tim Duncan, Tony Parker, and ________.") 
+    print("   Correct Answer: Manu Ginóbili\n")
+
+    print("5. Fill in the blank: Shaq was traded to the ________ in 2004.")
+    print("   Correct Answer: Miami Heat\n")
+
+    print("------------------------------------\n")
+
+
+    # -------------------------
+    #          2010s
+    # -------------------------
+    print("2010s NBA Quiz Answers\n")
+
+    print("1. Who won the 2015 NBA Championship?")
+    print("   Correct Answer: C — Golden State Warriors\n")
+
+    print("2. Who won back-to-back MVPs in 2019 and 2020?")
+    print("   Correct Answer: B — Giannis Antetokounmpo\n")
+
+    print("3. Who led the league in scoring in 2017?")
+    print("   Correct Answer: A — Russell Westbrook\n")
+
+    print("4. Fill in the blank: The Miami Heat Big 3 included LeBron, Dwyane Wade, and ________.") 
+    print("   Correct Answer: Chris Bosh\n")
+
+    print("5. Fill in the blank: Kobe Bryant retired in the year ________.") 
+    print("   Correct Answer: 2016\n")
+
+    print("------------------------------------\n")
+
+
+    # -------------------------
+    #          2020s
+    # -------------------------
+    print("2020s NBA Quiz Answers\n")
+
+    print("1. Who won the 2020 NBA Championship?")
+    print("   Correct Answer: A — Los Angeles Lakers\n")
+
+    print("2. Who was the 2021 MVP?")
+    print("   Correct Answer: C — Nikola Jokić\n")
+
+    print("3. Who won the 2022 Defensive Player of the Year?")
+    print("   Correct Answer: D — Marcus Smart\n")
+
+    print("4. Fill in the blank: The 2020 NBA Finals MVP was ________.") 
+    print("   Correct Answer: LeBron James\n")
+
+    print("5. Fill in the blank: Victor Wembanyama was drafted #1 overall by the ________.") 
+    print("   Correct Answer: San Antonio Spurs\n")
+
+    print("====================================\n")
 def run_quiz(questions):
     score = 0
 
