@@ -1,1 +1,112 @@
 # Will delete or use as my scratch sheet / testing page for my code
+
+# Hoop IQ - Base Version (Before Improvements)
+
+def get_decade_choice():
+    print("Welcome to Hoop IQ!")
+    print("Select an NBA decade:")
+    print("1. 2000s")
+    print("2. 2010s")
+    print("3. 2020s")
+
+    choice = input("Enter your choice (1-3): ")
+
+    if choice == "1":
+        return "2000s"
+    elif choice == "2":
+        return "2010s"
+    elif choice == "3":
+        return "2020s"
+    else:
+        print("Invalid selection. Please restart the program.")
+        exit()
+
+
+# ----- FIXED QUESTIONS FOR EACH DECADE ----- #
+
+questions_2000s = [
+    ("What was Kobe Bryant's season high in points made in a single game in 2002?",
+     "A. 51", "B. 56", "C. 62", "D. 58", "C"),
+
+    ("Who won the NBA Championship in 2007?",
+     "A. Spurs", "B. Lakers", "C. Heat", "D. Celtics", "A"),
+
+    ("Who won the dunk contest in 2003?",
+     "A. Vince Carter", "B. Jason Richardson", "C. Desmond Mason", "D. Fred Jones", "B"),
+
+    ("Who was the #1 overall pick in 2003?",
+     "A. Dwyane Wade", "B. Chris Bosh", "C. LeBron James", "D. Carmelo Anthony", "C"),
+
+    ("What was Allen Iverson's season high in points in 2001?",
+     "A. 41", "B. 44", "C. 49", "D. 50", "D")
+]
+
+
+questions_2010s = [
+    ("Who won the NBA Most Valuable Player in 2010?",
+     "A. LeBron James", "B. Kevin Durant", "C. Kobe Bryant", "D. Derrick Rose", "A"),
+
+    ("How many games did the NBA Finals go to in 2016?",
+     "A. 4", "B. 5", "C. 6", "D. 7", "D"),
+
+    ("What team won the NBA Championship in 2010?",
+     "A. Lakers", "B. Celtics", "C. Heat", "D. Spurs", "A"),
+
+    ("What was Kobe Bryant's season high in points in 2011?",
+     "A. 37", "B. 42", "C. 48", "D. 52", "C"),
+
+    ("What year did Kevin Durant win his MVP award?",
+     "A. 2012", "B. 2014", "C. 2015", "D. 2013", "B")
+]
+
+
+questions_2020s = [
+    ("Which player won MVP in 2022?",
+     "A. Jokic", "B. Embiid", "C. Curry", "D. Giannis", "B"),
+
+    ("Who won Defensive Player of the Year in 2020?",
+     "A. Rudy Gobert", "B. Giannis", "C. Anthony Davis", "D. Bam Adebayo", "B"),
+
+    ("Who won 6th Man of the Year in 2024?",
+     "A. Malik Monk", "B. Austin Reaves", "C. Tyler Herro", "D. Chris Paul", "A"),
+
+    ("Who was #1 overall pick in 2023?",
+     "A. Victor Wembanyama", "B. Scoot Henderson", "C. Brandon Miller", "D. Chet Holmgren", "A"),
+
+    ("Which team played the Lakers in the 2023 WCF?",
+     "A. Suns", "B. Nuggets", "C. Mavericks", "D. Warriors", "B")
+]
+
+
+# ----- MAIN QUIZ LOGIC ----- #
+
+def run_quiz(questions):
+    score = 0
+
+    print("\nStarting quiz...\n")
+
+    for q, a, b, c, d, correct in questions:
+        print(q)
+        print(a)
+        print(b)
+        print(c)
+        print(d)
+        answer = input("Your answer (A-D): ").upper()
+
+        if answer == correct:
+            score += 1
+
+    print("\nQuiz complete!")
+    print(f"You scored {score} out of 5.")
+
+
+# ----- PROGRAM START ----- #
+
+decade = get_decade_choice()
+
+if decade == "2000s":
+    run_quiz(questions_2000s)
+elif decade == "2010s":
+    run_quiz(questions_2010s)
+elif decade == "2020s":
+    run_quiz(questions_2020s)
