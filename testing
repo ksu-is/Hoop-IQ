@@ -115,20 +115,19 @@ def show_answer_sheet():
     print("1. What was Kobe Bryant's season high in points made in a single game in 2002?")
     print("   Correct Answer: C — 62\n")
 
-    print("2. Who won the NBA championship in 2007?")
+    print("2. Who won the NBA Championship in 2007?")
     print("   Correct Answer: A — Spurs\n")
 
     print("3. Who won the dunk contest in 2003?")
     print("   Correct Answer: B — Jason Richardson\n")
 
-    print("4. Who was the #1 overall pick in 2003?") 
-    print("   Correct Answer: C - Lebron James\n")
+    print("4. Who was the #1 overall pick in 2003?")
+    print("   Correct Answer: C — LeBron James\n")
 
     print("5. What was Allen Iverson's season high in points in 2001?")
-    print("   Correct Answer: D - 50\n")
+    print("   Correct Answer: D — 50\n")
 
     print("------------------------------------\n")
-
 
     # -------------------------
     #          2010s
@@ -136,7 +135,7 @@ def show_answer_sheet():
     print("2010s NBA Quiz Answers\n")
 
     print("1. Who won the NBA Most Valuable Player in 2010?")
-    print("   Correct Answer: A — Lebron James\n")
+    print("   Correct Answer: A — LeBron James\n")
 
     print("2. How many games did the NBA Finals go to in 2016?")
     print("   Correct Answer: D — 7\n")
@@ -144,36 +143,36 @@ def show_answer_sheet():
     print("3. What team won the NBA Championship in 2010?")
     print("   Correct Answer: A — Lakers\n")
 
-    print("4. What was Kobe Bryant's season high in points in 2011?") 
-    print("   Correct Answer: C - 48\n")
+    print("4. What was Kobe Bryant's season high in points in 2011?")
+    print("   Correct Answer: C — 48\n")
 
-    print("5. What year did Kevin Durant win his MVP award?") 
-    print("   Correct Answer: B - 2014\n")
+    print("5. What year did Kevin Durant win his MVP award?")
+    print("   Correct Answer: B — 2014\n")
 
     print("------------------------------------\n")
-
 
     # -------------------------
     #          2020s
     # -------------------------
     print("2020s NBA Quiz Answers\n")
 
-    print("1. Which player won the MVP in 2022?")
+    print("1. Which player won the NBA MVP in 2022?")
     print("   Correct Answer: B — Joel Embiid\n")
 
-    print("2. WHo won the Defensive Player of the Year in 2020?")
+    print("2. Who won the Defensive Player of the Year in 2020?")
     print("   Correct Answer: B — Giannis\n")
 
     print("3. Who won the 6th Man of the Year in 2024?")
     print("   Correct Answer: A — Malik Monk\n")
 
-    print("4. Who was the #1 overall pick in 2023?") 
-    print("   Correct Answer: A - Victor Wembanyama\n")
+    print("4. Who was the #1 overall pick in 2023?")
+    print("   Correct Answer: A — Victor Wembanyama\n")
 
-    print("5. Which team played the Lakers in 2023 Western Conference Finals?") 
-    print("   Correct Answer: B - Denver Nuggets\n")
+    print("5. Which team played the Lakers in the 2023 Western Conference Finals?")
+    print("   Correct Answer: B — Denver Nuggets\n")
 
     print("====================================\n")
+
 def run_quiz(questions):
     score = 0
 
