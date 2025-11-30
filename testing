@@ -80,7 +80,7 @@ questions_2020s = [
     ("Who was #1 overall pick in 2023?",
      "A. Victor Wembanyama", "B. Scoot Henderson", "C. Brandon Miller", "D. Chet Holmgren", "A"),
 
-    ("Which team played the Lakers in the 2023 WCF?",
+    ("Which team played the Lakers in 2023 Western Conference Finals?",
      "A. Suns", "B. Nuggets", "C. Mavericks", "D. Warriors", "B")
 ]
 
@@ -112,20 +112,20 @@ def show_answer_sheet():
     # -------------------------
     print("2000s NBA Quiz Answers\n")
 
-    print("1. Who won the 2004 NBA Championship?")
-    print("   Correct Answer: B — Detroit Pistons\n")
+    print("1. What was Kobe Bryant's season high in points made in a single game in 2002?")
+    print("   Correct Answer: C — 62\n")
 
-    print("2. Who was the 2008 MVP?")
-    print("   Correct Answer: A — Kobe Bryant\n")
+    print("2. Who won the NBA championship in 2007?")
+    print("   Correct Answer: A — Spurs\n")
 
-    print("3. Which team drafted LeBron James?")
-    print("   Correct Answer: C — Cleveland Cavaliers\n")
+    print("3. Who won the dunk contest in 2003?")
+    print("   Correct Answer: B — Jason Richardson\n")
 
-    print("4. Fill in the blank: The Spurs big 3 were Tim Duncan, Tony Parker, and ________.") 
-    print("   Correct Answer: Manu Ginóbili\n")
+    print("4. Who was the #1 overall pick in 2003?") 
+    print("   Correct Answer: C - Lebron James\n")
 
-    print("5. Fill in the blank: Shaq was traded to the ________ in 2004.")
-    print("   Correct Answer: Miami Heat\n")
+    print("5. What was Allen Iverson's season high in points in 2001?")
+    print("   Correct Answer: D - 50\n")
 
     print("------------------------------------\n")
 
@@ -135,20 +135,20 @@ def show_answer_sheet():
     # -------------------------
     print("2010s NBA Quiz Answers\n")
 
-    print("1. Who won the 2015 NBA Championship?")
-    print("   Correct Answer: C — Golden State Warriors\n")
+    print("1. Who won the NBA Most Valuable Player in 2010?")
+    print("   Correct Answer: A — Lebron James\n")
 
-    print("2. Who won back-to-back MVPs in 2019 and 2020?")
-    print("   Correct Answer: B — Giannis Antetokounmpo\n")
+    print("2. How many games did the NBA Finals go to in 2016?")
+    print("   Correct Answer: D — 7\n")
 
-    print("3. Who led the league in scoring in 2017?")
-    print("   Correct Answer: A — Russell Westbrook\n")
+    print("3. What team won the NBA Championship in 2010?")
+    print("   Correct Answer: A — Lakers\n")
 
-    print("4. Fill in the blank: The Miami Heat Big 3 included LeBron, Dwyane Wade, and ________.") 
-    print("   Correct Answer: Chris Bosh\n")
+    print("4. What was Kobe Bryant's season high in points in 2011?") 
+    print("   Correct Answer: C - 48\n")
 
-    print("5. Fill in the blank: Kobe Bryant retired in the year ________.") 
-    print("   Correct Answer: 2016\n")
+    print("5. What year did Kevin Durant win his MVP award?") 
+    print("   Correct Answer: B - 2014\n")
 
     print("------------------------------------\n")
 
@@ -158,20 +158,20 @@ def show_answer_sheet():
     # -------------------------
     print("2020s NBA Quiz Answers\n")
 
-    print("1. Who won the 2020 NBA Championship?")
-    print("   Correct Answer: A — Los Angeles Lakers\n")
+    print("1. Which player won the MVP in 2022?")
+    print("   Correct Answer: B — Joel Embiid\n")
 
-    print("2. Who was the 2021 MVP?")
-    print("   Correct Answer: C — Nikola Jokić\n")
+    print("2. WHo won the Defensive Player of the Year in 2020?")
+    print("   Correct Answer: B — Giannis\n")
 
-    print("3. Who won the 2022 Defensive Player of the Year?")
-    print("   Correct Answer: D — Marcus Smart\n")
+    print("3. Who won the 6th Man of the Year in 2024?")
+    print("   Correct Answer: A — Malik Monk\n")
 
-    print("4. Fill in the blank: The 2020 NBA Finals MVP was ________.") 
-    print("   Correct Answer: LeBron James\n")
+    print("4. Who was the #1 overall pick in 2023?") 
+    print("   Correct Answer: A - Victor Wembanyama\n")
 
-    print("5. Fill in the blank: Victor Wembanyama was drafted #1 overall by the ________.") 
-    print("   Correct Answer: San Antonio Spurs\n")
+    print("5. Which team played the Lakers in 2023 Western Conference Finals?") 
+    print("   Correct Answer: B - Denver Nuggets\n")
 
     print("====================================\n")
 def run_quiz(questions):
